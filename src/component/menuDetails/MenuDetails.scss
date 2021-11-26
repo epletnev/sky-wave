@@ -1,0 +1,39 @@
+@import "../../theme/variables.scss";
+
+.menuDetails-container {
+  display: flex;
+  justify-content: space-between;
+  img {
+    margin-left: 11rem;
+  }
+
+  .card-description {
+    padding: 1rem;
+    font-size: 0.8rem;
+    width: 37%;
+  }
+
+  .icons {
+    color: $theme-Color;
+    width: 3%;
+    height: 3%;
+    margin-right: 5px;
+  }
+}
+
+.loading {
+  width: 200px;
+  height: 200px;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.categories {
+  list-style-type: none;
+}
+
+.price {
+  color: $theme-Color;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

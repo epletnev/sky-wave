@@ -1,0 +1,62 @@
+@import "../../theme/variables.scss";
+
+.card-container {
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20%;
+  margin: 1rem;
+
+  h6 {
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .card-description {
+    padding: 1rem;
+    font-size: 0.7rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+
+  .icons {
+    color: $theme-Color;
+    width: 6%;
+    height: 6%;
+    margin-right: 5px;
+  }
+
+  .price {
+    color: $theme-Color;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  hr {
+    border-top: 1px solid lightgrey;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 70%;
+    margin: 1rem;
+    li {
+      font-size: 0.7rem;
+      padding: 2px;
+    }
+  }
+}

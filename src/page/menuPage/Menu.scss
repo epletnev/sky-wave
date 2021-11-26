@@ -1,0 +1,9 @@
+@import "../../theme/variables.scss";
+
+.container-menu {
+  margin-top: 35rem;
+
+  @media screen and (max-width: 800px) {
+    margin-top: 28rem;
+  }
+}

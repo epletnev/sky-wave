@@ -1,0 +1,75 @@
+@import "../../theme/variables.scss";
+
+.reviews-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-section {
+  width: 60%;
+  padding: 2rem;
+  p {
+    padding-left: 2.5rem;
+  }
+}
+
+.reviews {
+  display: flex;
+  ul {
+    list-style-type: none;
+    padding: 1rem;
+  }
+  img {
+    margin: 1rem;
+  }
+  .name {
+    font-weight: bold;
+  }
+  .message {
+    font-size: 0.8rem;
+  }
+  .date {
+    color: gray;
+    font-size: 0.8rem;
+  }
+}
+
+.reviews-title {
+  display: flex;
+  justify-content: flex-end;
+  p {
+    padding-right: 14rem;
+    margin: 1rem;
+  }
+  button {
+    margin: 1rem;
+  }
+}
+
+.pencil-icon {
+  display: block;
+  height: 30px;
+  width: 30px;
+  color: $theme-Color;
+  background-color: pink;
+  border-radius: 50%;
+  border: none;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+
+.redLine {
+  border-top: 3px solid $theme-Color;
+  margin: 0;
+  margin-right: 80%;
+}
+
+.thickGreyLine {
+  border-top: 2px solid lightgrey;
+  margin: auto;
+}
+
+.thinGreyLine {
+  border-top: 1px solid lightgrey;
+  margin: auto;
+}

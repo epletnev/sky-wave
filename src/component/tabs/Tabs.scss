@@ -1,0 +1,29 @@
+@import "../../theme/variables.scss";
+
+.tabs-menu {
+  text-align: center;
+
+  button {
+    background-color: white;
+    border: none;
+    padding: 5px 35px;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  button:focus {
+    background-color: $theme-Color;
+    color: white;
+    outline: none;
+  }
+
+  @media screen and (max-width: 800px) {
+    button {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+  }
+}

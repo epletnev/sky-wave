@@ -1,0 +1,63 @@
+@import "../../theme/variables.scss";
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.modal-container {
+  position: fixed;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 1000;
+
+  .form-container {
+    padding: 0px 50px 50px 50px;
+
+    .radio {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+    }
+
+    .g-2 {
+      padding-bottom: 7px;
+    }
+  }
+
+  h6 {
+    background-color: $theme-Color;
+    color: white;
+    padding: 0.8rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button {
+    background-color: $theme-Color;
+    border: none;
+    margin: 5px;
+  }
+
+  button:hover {
+    background-color: $theme-Color !important;
+  }
+
+  button:focus,
+  button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: $theme-Color !important;
+  }
+}

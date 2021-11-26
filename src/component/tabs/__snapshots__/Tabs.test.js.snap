@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render TabsCategory component 1`] = `<TabsCategory />`;
+
+exports[`expext to render TabsCategory component 1`] = `<TabsCategory />`;

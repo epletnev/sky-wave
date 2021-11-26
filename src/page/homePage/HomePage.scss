@@ -1,0 +1,37 @@
+@import "../../theme/variables.scss";
+
+.menu-container {
+  padding-top: 8rem;
+
+  .line {
+    border-top: 2px solid $theme-Color;
+    width: 8%;
+    margin: auto;
+    padding: 5px;
+  }
+}
+
+.menu {
+  color: black;
+  font-family: $secondary-font-family;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.quote {
+  color: gray;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-container {
+    padding-top: 5rem;
+    .line {
+      width: 25%;
+    }
+  }
+  .quote {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,47 @@
+@import "../../theme/variables.scss";
+
+.rating-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.rating-container {
+  position: fixed;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 1000;
+
+  .ratings {
+    padding: 0px 50px 50px 50px;
+    p {
+      text-align: center;
+    }
+    button {
+      background-color: white;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: white !important;
+    }
+
+    button:focus,
+    button:active {
+      outline: none !important;
+      box-shadow: none !important;
+      background-color: white !important;
+      color: $theme-Color;
+    }
+  }
+
+  .submit {
+    margin-left: 35%;
+    margin-right: 50%;
+  }
+}

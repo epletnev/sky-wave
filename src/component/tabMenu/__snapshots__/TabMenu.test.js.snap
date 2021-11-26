@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render TabMenu component 1`] = `
+<TabMenu
+  menu={
+    Array [
+      Object {
+        "availibilityCount": 5,
+        "cartCount": 0,
+        "categoryId": "Breakfast",
+        "description": "Butter, cream, honey, salty cottage cheese, white cheese.",
+        "discount": 0,
+        "id": 1,
+        "image": Object {
+          "big": "assets/images/foods/breakfast/1/big.jpg",
+          "medium": "assets/images/foods/breakfast/1/medium.jpg",
+          "small": "assets/images/foods/breakfast/1/small.jpg",
+        },
+        "isVegetarian": false,
+        "name": "Snack Set",
+        "price": 8.2,
+        "ratingsCount": 4,
+        "ratingsValue": 350,
+        "reviews": Array [],
+        "weight": 160,
+      },
+    ]
+  }
+/>
+`;
+
+exports[`expext to render TabMenu component 1`] = `
+<TabMenu
+  menu={
+    Array [
+      Object {
+        "availibilityCount": 5,
+        "cartCount": 0,
+        "categoryId": "Breakfast",
+        "description": "Butter, cream, honey, salty cottage cheese, white cheese.",
+        "discount": 0,
+        "id": 1,
+        "image": Object {
+          "big": "assets/images/foods/breakfast/1/big.jpg",
+          "medium": "assets/images/foods/breakfast/1/medium.jpg",
+          "small": "assets/images/foods/breakfast/1/small.jpg",
+        },
+        "isVegetarian": false,
+        "name": "Snack Set",
+        "price": 8.2,
+        "ratingsCount": 4,
+        "ratingsValue": 350,
+        "reviews": Array [],
+        "weight": 160,
+      },
+    ]
+  }
+/>
+`;
