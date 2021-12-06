@@ -167,10 +167,7 @@
   },
   "contactData": {
     "address": "2903 Avenue Z, MG Marg, Mumbai, India",
-    "phone": [
-      "(91) 987 654 3210",
-      "(91) 987 654 3211"
-    ],
+    "phone": ["(91) 987 654 3210", "(91) 987 654 3211"],
     "email": "contact@skywave.com"
   },
   "getInTouchData": [
@@ -180,34 +177,6 @@
       "phone": "3333333123",
       "message": "Hi arathe",
       "id": 1
-    },
-    {
-      "name": "Evgeny",
-      "email": "evgeny@gmail.com",
-      "phone": "0789096778",
-      "message": "hi",
-      "id": 2
-    },
-    {
-      "name": "Evgeny",
-      "email": "evgeny@gmail.com",
-      "phone": "0789096778",
-      "message": "hi",
-      "id": 3
-    },
-    {
-      "name": "John",
-      "email": "john@gmail.com",
-      "phone": "6343646666",
-      "message": "test",
-      "id": 4
-    },
-    {
-      "name": "Evgeny",
-      "email": "evgeny@gmail.com",
-      "phone": "0789096778",
-      "message": "hi",
-      "id": 5
     }
   ]
 }
