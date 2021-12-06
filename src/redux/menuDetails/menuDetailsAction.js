@@ -172,7 +172,7 @@ const data = [
 
 // get menu details page data
 export const getMenuDetails = (id) => (dispatch) => {
-  const result = data.filter((menuItem) => menuItem.id === id);
+  const result = data.filter((menuItem) => menuItem.id == id);
   dispatch({
     type: GET_MENU_DETAILS,
     payload: result[0],
@@ -181,7 +181,7 @@ export const getMenuDetails = (id) => (dispatch) => {
 
 // get reviews data
 export const getReviews = (id) => (dispatch) => {
-  const result = data.filter((menuItem) => menuItem.id === id);
+  const result = data.filter((menuItem) => menuItem.id == id);
   dispatch({
     type: GET_REVIEWS,
     payload: result[0],
