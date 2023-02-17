@@ -21,25 +21,23 @@ export default ({ menuDetails }) => {
       </LazyLoad>
       <section className="card-description">
         <h5>{menuDetails.name}</h5>
-        <p className="price">₹ {menuDetails.price}</p>
+        <p className="price">£ {menuDetails.price}</p>
         <ul className="categories">
           <li>
             <BsTagFill className="icons" />
-            Category:..................................{menuDetails.categoryId}
+            Category: {menuDetails.categoryId}
           </li>
           <li>
             <BsCheckCircleFill className="icons" />
-            Availability:..............................
-            {menuDetails.availibilityCount}
+            Availability: {menuDetails.availibilityCount}
           </li>
           <li>
             <RiScales3Fill className="icons" />
-            Weight:.....................................{menuDetails.weight}
+            Weight: {menuDetails.weight}
           </li>
           <li>
             <FaLeaf className="icons" />
-            Vegetarian:...............................
-            {menuDetails.isVegetarian ? "Yes" : "No"}
+            Vegetarian: {menuDetails.isVegetarian ? "Yes" : "No"}
           </li>
         </ul>
         <h6>Ingredients</h6>
@@ -48,10 +46,8 @@ export default ({ menuDetails }) => {
         <p>What are you waiting for?</p>
         <ul>
           <li>Come and Taste the Food at our Restaurant</li>
-          <li>
-            Don't like our food. Share your feedback! Love to listen.....!
-          </li>
-          <li>Visit us, today!</li>
+          <li>Don't like our food. Share your feedback! Love to listen!</li>
+          <li>Visit us today!</li>
         </ul>
       </section>
     </div>

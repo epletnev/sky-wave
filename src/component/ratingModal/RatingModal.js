@@ -15,7 +15,7 @@ function RatingModal(props) {
         <div className="ratings">
           <p>Rating</p>
           <button onClick={handleChange} name="rating" value={1}>
-            ☹
+            😲
           </button>
           <button onClick={handleChange} name="rating" value={2}>
             🙁

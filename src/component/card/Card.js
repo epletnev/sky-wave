@@ -17,23 +17,23 @@ function MenuCard({ item }) {
           <ul>
             <li>
               <BsTagFill className="icons" />
-              Category:...............................{item.categoryId}
+              Category: {item.categoryId}
             </li>
             <li>
               <BsCheckCircleFill className="icons" />
-              Availability:............................{item.availibilityCount}
+              Availability: {item.availibilityCount}
             </li>
             <li>
               <RiScales3Fill className="icons" />
-              Weight:...................................{item.weight}
+              Weight: {item.weight}
             </li>
             <li>
               <FaLeaf className="icons" />
-              Vegetarian:............................{item.isVegetarian ? "Yes" : "No"}
+              Vegetarian: {item.isVegetarian ? "Yes" : "No"}
             </li>
           </ul>
           <hr />
-          <p className="price">₹ {item.price}</p>
+          <p className="price">£ {item.price}</p>
         </section>
       </Link>
     </div>

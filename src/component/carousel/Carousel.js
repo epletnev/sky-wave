@@ -39,7 +39,7 @@ function HomePageCarousel() {
       </div>
       <div className="carousel-title-description">
         <h1>Welcome to SkyWave Restaurant</h1>
-        <h3>HEALTHY, AUTHENTIC & SAFE FOOD</h3>
+        <h3>HEALTHY, AUTHENTIC & TASTY FOOD</h3>
       </div>
     </div>
   );
